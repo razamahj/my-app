@@ -1,0 +1,29 @@
+<app-top-bar></app-top-bar>
+
+<h1>My name is junaid </h1>
+
+
+<table *ngIf="arrQuestions">
+
+  <tr>
+    <th>index</th>
+      <th>Number</th>
+        <th>Question</th>
+          <th>Answer</th>
+  </tr>
+
+
+  <tr *ngFor= "let question of arrQuestions; let i = index">
+
+    {{question[0]}}
+
+    <td>{{i}}</td>
+      <td>{{question.number}}</td>
+        <td>{{question.question}}</td>
+          <td>{{question.answer}}</td>
+  </tr>
+</table>
+
+
+
+    

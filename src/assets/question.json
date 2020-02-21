@@ -1,0 +1,102 @@
+[
+  {
+	"number": 1,
+    "question": "What is Angular 2?",
+    "answer": "Angular 2 is an open-sourced framework/platform designed to easily build high-performance, large-scale web applications, all while making them low-maintenance."
+  },
+  {
+    "number": 2,
+    "question": "What’s the difference between Angular JS and Angular 2?",
+	"answer": "Angular 2 is a complete rewrite of Angular JS, Angular 2 is geared more towards developing mobile applications."
+  },
+  {
+    "number": 3,
+    "question": "What are the main advantages of Angular 2?",
+	"answer": "Angular 2’s main advantages are Mobile-Friendly Angular 2 was created with the mobile app industry in mind Browser Compatibility: Angular 2 supports Internet Explorer 9, 10, 11, Firefox, Chrome, Safari, Android 4.1, as well as Microsoft Edge Cross-Platform Flexibility: When using Angular 2, developers can design applications that can run on desktop systems, Android-based devices, iOS-based devices, etc High Performance: Angular2 uses a highly optimized superset of JavaScript that makes both the app and website load faster. Additionally, Angular2’s new component router results in faster loads Code Generation: Templates are turned into code that's highly optimized for today's JavaScript virtual machines. This gives the developer all of the benefits of hand-written code, but with a framework’s productivity Cost-Effective: And of course, Angular is open source, so the price is right!."
+  },
+  {
+	"number": 4,
+    "question": "Every tool has its downside, what are Angular 2’s disadvantages?",
+	"answer": "The drawbacks of Angular 2 are; Confusing; since there are numerous ways of doing a task it can be difficult especially for newcomers to choose the right way to perform a task Steep Learning Curve: On a related note, if you don’t know TypeScript, you better learn it, since it’s been introduced into Angular 2. Basic functions are easy, but when you move into advanced concepts, the curve gets steep It’s A Whole Different Animal: If you like and are used to Angular, you’re in for a shock, as Angular 2 represents a total redesign Slow User Interface: If you’re dealing with more than 2000 watchers, get ready for some major lag Documentation: Due to a fragmented community, there’s a lack of clear, well-written, consistent documentation."
+  },
+   {
+	"number": 5,
+    "question": "List the features of the Angular 2 Framework.",
+	"answer": "The features are; Components; Used to build applications into assorted modules, Services ; Code sets that are shared between different codes within an application, TypeScript ; A JavaScript superset that’s maintained by Microsoft"
+},
+   {
+	"number": 6,
+    "question": "What are the chief components of Angular 2?",
+	"answer": "The main components are;\tComponent; Brings the modules together, Metadata ; Adds more data to the Angular JS class, Modules ; Breaks up the application into logical pieces of code, each module performing a single task, Service ; Creates a component that can be shared across the whole application, Templates ; Defines an Angular JS application\u2019s views."
+},
+	{
+	"number": 7,
+    "question": "Name the three Module Arrays",
+	"answer": "Modules break your applications into logical boundaries. They are, in alphabetical order; Bootstrap array ; Tells Angular which components to load so the functionality can be accessed, Export array ; Sends out components, directives, and pipes to be used in other modules, Import array ; Brings in functionality from other Angular modules"
+  },
+  {
+	"number": 8,
+    "question": "What’s an EventEmitter?",
+	"answer": "It’s a class in the Angular framework that emits custom events."
+  },
+   {
+	"number": 9,
+    "question": "What’s an Angular 2 directive?",
+	"answer": "Directives are custom HTML elements used to extend the HTML’s power."
+  },
+   {
+	"number": 10,
+    "question": "Explain Routing.",
+	"answer": "Routing aids in directing users to different pages depending on what option they chose on the main page. Therefore, the required Angular Component that gets rendered to the user is determined by whatever option they chose."
+  },
+  {
+	"number": 11,
+    "question": "What does Cli stand for, and what does it do?",
+	"answer": "It stands for Command Line Interface and is used to create an Angular application. Additionally, it helps to create an application’s unit and end-to-end test, Directives are custom HTML elements used to extend the HTML’s power."
+  },
+  {
+	"number": 12,
+    "question": "Describe Lazy Loading.",
+	"answer": "This is a technique where, instead of an entire web page being loaded and given to the user in one shot, only the wanted section gets loaded in, with the rest of content delayed until needed, if at all."
+  },
+    {
+	"number": 13,
+    "question": " Discuss the tsconfig.json file.",
+	"answer": "The file is used to provide the options for Typescript that will be used for an Angular project."
+  },
+   {
+	"number": 14,
+    "question": " Discuss the differences between ActivatedRoute and RouterState, in the context of Angular 2.",
+	"answer": "The differences are as follows, ActivatedRoute; An ActivatedRoute is made up of the data about a route associated with a component that is loaded in an outlet, ActivatedRouteSnapchat ; is needed in order to traverse all the activated routes, ActivatedRouteSnapshot ; contains old data When a route gets altered, ActivateRouteSnapshot ; keeps data from the original route. RouterState ; The RouterState represents the writer’s actual state, The router creates a RouterStateSnapshot during navigation once all of the redirects have been applied, The RouterState; on the other hand, focuses on application components’ arrangements."
+  },
+   {
+	"number": 15,
+    "question": " What’s a Pipe?",
+	"answer": "Pipes edit, transform and format the data within the template. Bottom line, pipes takes input data and transforms it into output into something that we want."
+  },
+   {
+	"number": 16,
+    "question": " What’s a Directive?",
+	"answer": "Directives add behavior to existing DOM elements. They design reusable components."
+  },
+   {
+	"number": 17,
+    "question": " What is the AOT compilation, and what are its pros and cons?",
+	"answer": "AOT is an acronym for Ahead of Time Rather than being compiled in the browser at runtime, components and templates are compiled at build time they are converted to native JavaScript and HTML: On the plus side AOT offers faster download and rendering times Furthermore"," build time errors are more easily detected":" On the minus side, AOT creates large JavaScript bundles once compilation is done, which runs counter to what AOT is there for in the first place. Furthermore, AOT only works with HTML and CSS. Lastly, it requires a clean-up step."
+  },
+   {
+	"number": 18,
+    "question": " How do you handle Angular application errors?",
+	"answer": "All Angular applications have an error handling option. Just include the ReactJS catch library, then use the catch function. The catch function, in turn, contains a link that sends you to the Error Handler function. When in the Error Handler Function, you send the error in question to the console, while also sending the error back to the main program in order to assure continued operation of the main program. Once this is all in place, whenever an error arises in the future, it’ll be redirected to the browser’s error console."
+  },
+   {
+	"number": 19,
+    "question": " Define the role of a decorator in Angular 2",
+	"answer": "Decorators identify an object type or class that has been created by the TypeScript as an Angular component. The decorators provide additional metadata that dictates how the component should be processed and used when it’s run."
+  },
+   {
+    "number": 20,
+    "question": " Can you convert a string into a date?",
+	"answer": "This is what the syntax looks like.<div>The date of this Tutorial is {{newdate | date:'MM/dd/yy'}}</div>."
+   }
+]
